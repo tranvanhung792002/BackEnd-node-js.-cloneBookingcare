@@ -5,7 +5,11 @@
     "database": "nodejsfullstack",
     "host": "127.0.0.1",
     "dialect": "mysql",
-    "logging": false
+    "logging": false,
+    "query": {
+      "raw": true
+    },
+    "timezoe": "+07:00"
   },
   "test": {
     "username": "root",
